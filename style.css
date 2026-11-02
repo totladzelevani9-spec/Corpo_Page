@@ -1,3 +1,63 @@
+<<<<<<< HEAD
+.services-section {
+    padding: 80px 20px;
+    background-color: #f9fafb;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.services-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services-section h2 {
+    font-size: 2.5rem;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    color: #4b5563;
+    margin-bottom: 50px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.service-card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #6b7280;
+    line-height: 1.6;
+=======
 /* Base styles */
 * {
   margin: 0;
@@ -35,4 +95,5 @@ nav {
 
 .nav-links a:hover {
   text-decoration: underline;
+>>>>>>> f51ef2a5240a34d9d511d4642b271cd52c076f05
 }
