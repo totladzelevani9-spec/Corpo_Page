@@ -1,4 +1,4 @@
-/* --- Base Style --- */
+/* --- Base Style (Main ბრენჩიდან)[cite: 2] --- */
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ nav {
 }
 
 
-/* --- Services & Features Section Styles (სტუდენტი 3) --- */
+/* --- Services & Features Section Styles (Main ბრენჩიდან)[cite: 2] --- */
 .services-section {
     padding: 80px 20px;
     background-color: #f9fafb;
@@ -98,4 +98,76 @@ nav {
     font-size: 1rem;
     color: #6b7280;
     line-height: 1.6;
+}
+
+
+/* --- Hero სექციის დიზაინი (შენი კოდიდან) --- */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #ddd;
+}
+
+.btn {
+    display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #2980b9;
+}
+
+
+/* --- ჩვენ შესახებ სექცია (შენი კოდიდან) --- */
+.about {
+    padding: 80px 20px;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #666;
+}
+
+
+/* --- ფუტერის დიზაინი (შენი კოდიდან) --- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a2a44;
+    color: #fff;
+    font-size: 14px;
 }
