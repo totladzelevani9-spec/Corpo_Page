@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* ზოგადი პარამეტრები */
 * {
     margin: 0;
@@ -10,38 +9,6 @@
 body {
     line-height: 1.6;
     color: #333;
-}
-
-/* ნავიგაციის დიზაინი */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background: #1a252f;
-    color: #fff;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-}
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.nav-links a:hover {
-    color: #3498db;
 }
 
 /* Hero სექციის დიზაინი */
@@ -111,43 +78,4 @@ footer {
     background: #1a252f;
     color: #fff;
     font-size: 14px;
-=======
-/* Base styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background: #1a2a44;
-  color: white;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.nav-links {
-  display: flex;
-  list-style: none;
-  gap: 1.5rem;
-}
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-}
-
-.nav-links a:hover {
-  text-decoration: underline;
->>>>>>> f51ef2a5240a34d9d511d4642b271cd52c076f05
 }
